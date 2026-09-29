@@ -167,6 +167,14 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
 
+        {/* Profile image preload */}
+        {/* <link
+          rel="preload"
+          as="image"
+          href="/Profile.png"
+          type="image/png"
+        /> */}
+
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -232,9 +240,9 @@ export default function RootLayout({
 
                   sameAs: [
                     "https://www.linkedin.com/in/rajmohan5323/",
-                    "https://github.com/Rajmohan5323/",
+                    "https://github.com/rajmohan5323",
                     "https://www.instagram.com/rajmohan_5323/",
-                    "https://www.facebook.com/rajmohan5323  ",
+                    "https://www.facebook.com/rajmohan5323",
                   ],
                 },
 

@@ -213,12 +213,13 @@ export default function Hero() {
                       <div className="rounded-[40px] overflow-hidden border-[1.5px] border-yellow-400 shadow-[0_0_70px_rgba(251,191,36,.35)]">
 
                         <Image
-                          src="/Profile.webp"
+                          src="/Profile.png"
                           alt="Raj Mohan - Full Stack Java Developer"
-                          width={460}
-                          height={560}
+                          width={1024}
+                          height={1375}
                           quality={90}
                           priority
+                          fetchPriority="high"
                           // className="relative z-20 w-[280px] h-[360px] object-cover"
                           className="relative z-20
                                         w-[230px] h-[300px]
