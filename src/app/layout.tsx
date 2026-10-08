@@ -168,12 +168,12 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
 
         {/* Profile image preload */}
-        {/* <link
+        <link
           rel="preload"
           as="image"
           href="/Profile.png"
           type="image/png"
-        /> */}
+        />
 
         {/* JSON-LD Structured Data */}
         <script
@@ -196,8 +196,6 @@ export default function RootLayout({
                     "@type": "ImageObject",
                     url: `${siteUrl}/Profile.png`,
                     contentUrl: `${siteUrl}/Profile.png`,
-                    width: 1024,
-                    height: 1375,
                     caption: "Raj Mohan - Full Stack Java Developer",
                   },
 
